@@ -36,8 +36,8 @@ of network interference. The creators of the guide, however, are very interested
 in expanding the guide to include information related to other network
 measurements tools and software that can be used in this manner. If you or
 someone you know is able to provide such information, please
-[get in touch with us](https://magma.lavafeld.org/contact/)) or read on how you
-can directly [contribute](contribute.md) to the guide.
+[get in touch with us](https://blog.magma.lavafeld.org/contact/) or read on how
+you can directly [contribute](contribute.md) to the guide.
 
 Questions? Think you might be interested in contributing to the magma guide?
 Click [here](contribute.md)

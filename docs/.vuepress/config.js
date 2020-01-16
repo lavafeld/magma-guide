@@ -17,7 +17,7 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
   themeConfig: {
-    repo: 'https://gitlab.com/lavafeld/magma-guide',
+    repo: 'https://github.com/lavafeld/magma-guide',
     editLinks: true,
     docsDir: 'docs',
     smoothScroll: true,
