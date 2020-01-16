@@ -1,0 +1,33 @@
+{
+  "name": "magma-guide",
+  "description": "The magma guide",
+  "version": "0.5.0",
+  "author": {
+    "name": "Vasilis Ververis",
+    "email": "magma@lavafeld.org"
+  },
+  "license": "CC-BY-SA-4.0",
+  "homepage": "https://magma.lavafeld.org/",
+  "bugs": "https://github.com/lavafeld/magma-guide/issues/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lavafeld/magma-guid"
+  },
+  "dependencies": {
+    "vuepress": "1.2.0",
+    "@vuepress/plugin-back-to-top": "1.2.0",
+    "vuepress-plugin-export": "0.2.0",
+    "vuepress-plugin-zooming": "1.1.6",
+    "vuepress-plugin-one-click-copy": "1.0.1"
+  },
+  "keywords": [
+    "documentation",
+    "guide"
+  ],
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:build:gitlab": "VUEPRESS_BASE='/magma-guide/' vuepress build docs",
+    "docs:export": "vuepress export docs"
+  }
+}

@@ -1,0 +1,15 @@
+image: node:12
+
+pages:
+  cache:
+    paths:
+    - node_modules/
+  script:
+  - yarn install
+  - yarn docs:build:gitlab
+  - yarn docs:export
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
