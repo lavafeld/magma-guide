@@ -530,7 +530,7 @@ Researchers and engineers can also use the following questions to help guide
 their ethical research design. These questions (and the info provided in the
 accompanying links) are a good way for users to identify potential gaps in their
 design or determine where more attention may be required (Source:
-[Networked Systems Ethics - Summary questions (TL;DR)](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Summary_questions_.28TL.3BDR.29):
+[Networked Systems Ethics - Summary questions (TL;DR)](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Summary_questions_.28TL.3BDR.29)):
 
 - [**Context:** How would you describe the context within which data is collected, information flows are created (or affected), or phenomena are measured?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Section_A:_Project_in_Context)
 - [**Aims:** What are the aim and benefits of the project?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Aim.2C_Benefits.2C_Technology_.26_Stakeholders)
@@ -548,9 +548,9 @@ design or determine where more attention may be required (Source:
 - [**Data Retention:** When will the collected data be deleted?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Data_Retention_Period)
 - [**Tech Alternatives:** Have you considered measures to mitigate the identified risk of harm or impacted values?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Section_C:_Evaluate_Alternatives)
   - [Can alternative technologies be employed or devised to mitigate some issues?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Technology_Alternatives)
-- [**Limit Scope** Can you limit the scope of the project (geography, knowledge generated, etc.)?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Scope_of_Project)
+- [**Limit Scope:** Can you limit the scope of the project (geography, knowledge generated, etc.)?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Scope_of_Project)
 - [**Methodology:** Have others used alternative methodologies to achieve similar ends?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Methodology_and_Project_Governance)
-- [**Informed Consent?** Do you need to rely on informed consent from participants and stakeholders?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Section_D:_Ethical_justification_and_Informed_consent)
+- [**Informed Consent:** Do you need to rely on informed consent from participants and stakeholders?](http://networkedsystemsethics.net/index.php?title=Networked_Systems_Ethics_-_Guidelines#Section_D:_Ethical_justification_and_Informed_consent)
 
 ### Further related work
 

@@ -13,13 +13,13 @@ Analysis of OONI data requires the use of several tools, all of which can be
 downloaded easily. After downloading, users should read and familiarize
 themselves with each tool prior to commencing data analysis.
 
-#### [jq](https://stedolan.github.io/jq/)
+### [jq](https://stedolan.github.io/jq/)
 
 A lightweight and flexible command-line JSON processor. For our purposes, `jq`
 will be used to generate `CSV` files from OONI data. The complete documentation
 of `jq` can be found [here](https://stedolan.github.io/jq/manual/).
 
-#### [R](https://cran.r-project.org/)
+### [R](https://cran.r-project.org/)
 
 A software environment for statistical computing and graphics. For our purposes,
 we will use `Rscript` (the scripting front-end for R) to be able to run R
@@ -27,7 +27,7 @@ scripts from the command line and generate data plots out of OONI data.
 Documentation resources and manuals for `R` can be found
 [here](https://cran.r-project.org/manuals.html).
 
-#### [ooni-sync](https://www.bamsoftware.com/software/ooni-sync/)
+### [ooni-sync](https://www.bamsoftware.com/software/ooni-sync/)
 
 A fast downloader of OONI reports using the OONI API, `ooni-sync` works by
 downloading an index of available files (only downloading the files that are not
@@ -47,7 +47,7 @@ More information on `ooni-sync` queries, test name values, and parameters is
 available [here](https://www.bamsoftware.com/software/ooni-sync/). More
 documentation on the API is available [here](https://api.ooni.io/api/).
 
-#### [ooni-sync in Docker](https://github.com/anadahz/ooni-sync-docker#ooni-sync-in-docker)
+### [ooni-sync in Docker](https://github.com/anadahz/ooni-sync-docker#ooni-sync-in-docker)
 
 If you do not want to install all the programs and tools required to analyze
 OONI data, you can instead use `ooni-sync in Docker` (a Docker image with all
@@ -213,12 +213,15 @@ An extended section detailing the reasons for blocking can be found here:
 
 <!-- prettier-ignore -->
 ::: tip
-Note: When dealing with a number of OONI reports, you may encounter several URLs that refer to the same domain name or website. Data analysis can be simplified by
-formatting these URLs to only get their subdomain (excluding the common `www` prefix) and domain name.
+Note: When dealing with a number of OONI reports, you may encounter several URLs
+that refer to the same domain name or website. Data analysis can be simplified
+by formatting these URLs to only get their subdomain (excluding the common `www`
+prefix) and domain name.
 :::
 
-Use the following GNU `sed` command to format the URLs in the
-CSV`file (`web_connectivity_tz.csv`) and strip anything else away from the domains and subdomains of the URLs (excluding the common`www`):
+Use the following GNU `sed` command to format the URLs in the CSV file
+(`web_connectivity_tz.csv`) and strip anything else away from the domains and
+subdomains of the URLs (excluding the common `www` subdomain):
 
 ```sh
 sed -i 's/[^,"/]*\/\/\([^@]*@\)\?\([^:/]*\)[^,"]*/\2/ ; s,www\.,,'  web_connectivity_tz.csv

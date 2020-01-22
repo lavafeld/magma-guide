@@ -4,8 +4,7 @@ This section of the magma guide provides guidance for how to perform and
 orchestrate network measurements. It currently contains only OONI-developed
 software as we are reviewing more software that can be added to this section.
 Please feel free to propose other software or contribute by adding a section to
-the guide on how to perform network measurements with other software that
-performs network measurements.
+the guide on how to perform network measurements with other software.
 
 ## OONI
 
@@ -19,8 +18,8 @@ interference.
 
 OONI probe runs on various OS types (Android, iOS, macOS, and Linux) and user
 interfaces (command-line, Web, and native graphical). The various clients
-(versions) have been developed in different programming languages (Python with
-the [Twisted networking framework](http://twistedmatrix.com/) is being used for
+(versions) have been developed in different programming languages with the
+[Twisted networking framework](http://twistedmatrix.com/) is being used for
 desktop, servers, and embedded devices; mobile platforms use the portable C++11
 network measurement library
 [measurement-kit](https://github.com/measurement-kit/measurement-kit).
@@ -225,14 +224,14 @@ complete version of this section can be found in
 
 #### Bad Report Data
 
-[Source](https://github.com/ooni/spec/wiki/Threats#bad-report-data)
-
 <!-- prettier-ignore -->
 ::: warning NOTE
 These threats involve the production or consumption of report data itself. An
 attacker may attempt to modify or influence report data, or they may use report
 data to compromise privacy.
 :::
+
+[Source](https://github.com/ooni/spec/wiki/Threats#bad-report-data)
 
 **"Toxic" Report Data** - Whose contents is a risk for someone, even when
 accurate.
