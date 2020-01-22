@@ -78,6 +78,7 @@ Many different activists and organizations have contributed to the magma guide.
 Some have chosen to remain anonymous. The others are listed below (this list is
 periodically updated):
 
+- Akis Spyridakis
 - Members of the
   [Open Technology Fund's Learning Lab](https://www.opentech.fund/labs/learning-lab/)
 - Sarah Laplante
