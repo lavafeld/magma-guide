@@ -20,6 +20,9 @@
     "vuepress-plugin-zooming": "1.1.6",
     "vuepress-plugin-one-click-copy": "1.0.1"
   },
+  "devDependencies": {
+    "vuepress-plugin-check-md": "0.0.2"
+  },
   "keywords": [
     "documentation",
     "guide"
@@ -28,6 +31,7 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "docs:build:gitlab": "VUEPRESS_BASE='/magma-guide/' vuepress build docs",
-    "docs:export": "vuepress export docs"
+    "docs:export": "vuepress export docs",
+    "docs:check": "vuepress check-md docs"
   }
 }

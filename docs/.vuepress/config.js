@@ -44,7 +44,8 @@ module.exports = {
         copyMessage: 'Copied!',
         duration: 600,
         showInMobile: false
-      }
+      },
+      'check-md': true
   }
 }
 

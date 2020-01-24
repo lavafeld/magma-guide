@@ -7,6 +7,8 @@ measurements.
 Currently this section includes information on network measurements gathered by
 OONI-developed software.
 
+# OONI data analysis
+
 ## Tools for OONI data analysis
 
 Analysis of OONI data requires the use of several tools, all of which can be
@@ -87,7 +89,7 @@ storage space, ranging from hundreds of Megabytes of data to several Gigabytes).
 
 In order to proceed with the data analysis, you must first install all the
 required tools listed above in section
-[Tools to analyze OONI data repository](data-analysis.md#tools-to-analyze-ooni-data)
+[Tools to analyze OONI data repository](data-analysis.md#tools-for-ooni-data-analysis)
 (`jq`, `R`, `ooni-sync`), or be prepared to use the
 [ooni-sync in Docker](data-analysis.md#ooni-sync-in-docker) implementation.
 
@@ -307,7 +309,7 @@ measurements found in the OONI data. The colors of the dots (_gray_, _red_,
 _darkgreen_, _coral_, and _cyan_) represent the `anomaly_type` found in the
 measurement for that date (on the x-axis). The `anomaly_type` depicts the
 blocking types found in OONI data. Consult the above section
-[Web Connectivity test: Blocking types](data-analysis.html#web-connectivity-test-blocking-types)
+[Web Connectivity test: Blocking types](data-analysis.md#web-connectivity-test-blocking-types)
 for a detailed explanation of the test's blocking types.
 
 ![Excerpt of plotted TZ OONI data in file `web_connectivity_tz.pdf`](./assets/files/tz-study/web_connectivity_tz_excerpt.png)
