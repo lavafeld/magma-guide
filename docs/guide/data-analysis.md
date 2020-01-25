@@ -7,21 +7,21 @@ measurements.
 Currently this section includes information on network measurements gathered by
 OONI-developed software.
 
-# OONI data analysis
+## OONI data analysis
 
-## Tools for OONI data analysis
+### Tools for OONI data analysis
 
 Analysis of OONI data requires the use of several tools, all of which can be
 downloaded easily. After downloading, users should read and familiarize
 themselves with each tool prior to commencing data analysis.
 
-### [jq](https://stedolan.github.io/jq/)
+#### [jq](https://stedolan.github.io/jq/)
 
 A lightweight and flexible command-line JSON processor. For our purposes, `jq`
 will be used to generate `CSV` files from OONI data. The complete documentation
 of `jq` can be found [here](https://stedolan.github.io/jq/manual/).
 
-### [R](https://cran.r-project.org/)
+#### [R](https://cran.r-project.org/)
 
 A software environment for statistical computing and graphics. For our purposes,
 we will use `Rscript` (the scripting front-end for R) to be able to run R
@@ -29,7 +29,7 @@ scripts from the command line and generate data plots out of OONI data.
 Documentation resources and manuals for `R` can be found
 [here](https://cran.r-project.org/manuals.html).
 
-### [ooni-sync](https://www.bamsoftware.com/software/ooni-sync/)
+#### [ooni-sync](https://www.bamsoftware.com/software/ooni-sync/)
 
 A fast downloader of OONI reports using the OONI API, `ooni-sync` works by
 downloading an index of available files (only downloading the files that are not
@@ -49,7 +49,7 @@ More information on `ooni-sync` queries, test name values, and parameters is
 available [here](https://www.bamsoftware.com/software/ooni-sync/). More
 documentation on the API is available [here](https://api.ooni.io/api/).
 
-### [ooni-sync in Docker](https://github.com/anadahz/ooni-sync-docker#ooni-sync-in-docker)
+#### [ooni-sync in Docker](https://github.com/anadahz/ooni-sync-docker#ooni-sync-in-docker)
 
 If you do not want to install all the programs and tools required to analyze
 OONI data, you can instead use `ooni-sync in Docker` (a Docker image with all
@@ -57,7 +57,7 @@ required dependencies ready to use `ooni-sync`, `jq`, and `R`). Instructions for
 how to use the Docker image, as well as installation instructions, can be found
 [here](https://github.com/anadahz/ooni-sync-docker#ooni-sync-in-docker).
 
-## OONI data location
+### OONI data location
 
 When performing an analysis across an OONI data set, it is often beneficial to
 use a local copy of the data you have gathered. OONI provides a full copy of the
