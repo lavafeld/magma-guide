@@ -46,7 +46,7 @@ and search OONI data. With it, users can:
 
 Additional examples of how to use OONI data can be found in the Data analysis
 section of the magma guide:
-[How to use OONI data](data-analysis#ooni-data-analysis).
+[How to use OONI data](data-analysis.md#ooni-data-analysis).
 
 ## RIPE
 
