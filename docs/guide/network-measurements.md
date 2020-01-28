@@ -4,7 +4,7 @@ This section of the magma guide discusses network measurement: the process of
 measuring specific types of network activity to determine if there is any
 interference or abnormality occurring on a particular network. The first several
 subsections below detail the various types of network measurements that can be
-performed, the hardware needed to conduct them, and the vantage points from they
+performed, the hardware needed to conduct them, and the vantage points from where they
 will need to be conducted. The final subsections lay out network measurement
 best practices, associated risks, relevant ethical considerations, and
 volunteering considerations.
@@ -34,11 +34,11 @@ Most network measurement techniques rely on passive detection methods that can
 be performed automatically from anywhere. Such techniques typically visualize a
 small subset of potential Internet censorship events within specific networks,
 countries, or geographic areas. Because the results from these techniques
-usually come from a limited number of vantage points, they often provide an
-inaccurate view of the actual Internet censorship landscape. Still, these
+usually come from a limited number of vantage points (sample), they often provide an
+limited view of the actual Internet censorship landscape. Still, these
 techniques can be helpful when there is already evidence of an Internet
 censorship event occurring in a specific network segment or region, but the
-existing data are not enough to derive accurate assumptions about the nature,
+existing data are not enough to generalize about the nature,
 methods, and incentives behind the censorship activity.
 
 Active detection methods are network measurements that are performed manually by
@@ -251,7 +251,7 @@ scarce.
 | VPN              | Low         | Very Low - Low | Very Low     |
 | VPS              | Low         | Low - Medium   | Low - Mid    |
 
-### Sever inquiry template
+### Server inquiry template
 
 This following is a sample ISP inquiry template, which can be personalized and
 sent to an ISP to request permission to use a server to conduct network
@@ -262,7 +262,7 @@ Hi XXX,
 
 I am interested in your XXX server for performing network measurements.
 
-We are a registered association/research insitution in City XXX.
+We are a registered association/research institution in City XXX.
 We are conducting Internet censorship research on the country/area XXX.
 Our research project is: XXX
  // Explain the purpose and scope of the research here \\
@@ -604,7 +604,7 @@ related to Internet censorship or surveillance. For example, network speed tests
 (where users from various networks and endpoints are testing the quality of
 their network connection by measuring the link latency, download speed, and
 upload speed) are not entirely benign as many individuals suspect. Instead,
-these types of network measurements can be considered as harmless or too a much
+these types of network measurements can be considered as harmless or to a much
 lesser degree risky. However such network measurements may be used to detect
 bandwidth throttling that can be used as a mechanism of Internet censorship. By
 slowing down the connection speed to a very low rate, Internet connectivity can
