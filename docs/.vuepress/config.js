@@ -32,7 +32,8 @@ module.exports = {
       { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guide/' },
       { text: 'Publications', link: '/publications/' },
-      { text: 'Contribute', link: '/guide/contribute' }
+      { text: 'Contribute', link: '/guide/contribute' },
+      { text: 'Onion Service', link: 'http://magma.ua4vjlx72wv5crhkificaeysp62hizhazipfshsdvs6jxqvhtkpllcad.onion' }
     ]
   },
   plugins: {
