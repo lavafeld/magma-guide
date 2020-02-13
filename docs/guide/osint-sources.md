@@ -63,8 +63,8 @@ URLs, BGP, Whois and other services primarily related to Internet services.
 - [DNS Census 2013](https://archive.org/details/dns-census2013) - A public
   dataset of registered domains and DNS records that contains approximately 2.5
   billion DNS records gathered from 2012-2013.
-- [Domains Index datasets](https://domains-index.com/downloads/category/free/)
-  - A list of zone files available for free download.
+- [Domains Index datasets](https://domains-index.com/downloads/category/free/) -
+  A list of zone files available for free download.
 - [DNSApe](https://www.dnsape.com) - A collection of (mainly) DNS and other
   network tools.
 
@@ -75,8 +75,6 @@ URLs, BGP, Whois and other services primarily related to Internet services.
 - [AlienVault Open Threat Exchange](https://otx.alienvault.com/indicator/ip/) -
   OSINT data of IP addresses, domains, hostnames, file hashes, CVE numbers,
   URLs, email addresses, file paths, mutex names and other data.
-- [Bad Packets Mirai](https://mirai.badpackets.net/?ipAddress=) - Botnet hosts
-  search engine.
 - [GreyNoise IP Visualizer](https://viz.greynoise.io/ip/)
 - [IPVoid](http://www.ipvoid.com/) - Tools to discover details about IP
   addresses.
@@ -144,11 +142,11 @@ URLs, BGP, Whois and other services primarily related to Internet services.
 - [Common Crawl](https://registry.opendata.aws/commoncrawl/) - A corpus of web
   crawl data composed of over 25 billion web pages.
 - [GDELT](https://registry.opendata.aws/gdelt/) - The Global Database of Events,
-  Language and Tone, a project that “monitors the world's broadcast, print, and
+  Language and Tone, a project that "monitors the world's broadcast, print, and
   web news from nearly every corner of every country in over 100 languages and
   identifies the people, locations, organizations, counts, themes, sources,
   emotions, quotes, images and events driving our global society every second of
-  every day."
+  every day".
 - [GDELT Global Material Conflict 48-Hour Trend Report](https://www.gdeltproject.org/data/dailytrendreports/) -
   Every day the GDELT Project produces a PDF global trend report detailing
   changes in Material Conflict across the globe, instantly summarizing the
