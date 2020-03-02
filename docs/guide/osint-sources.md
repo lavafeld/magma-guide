@@ -81,8 +81,16 @@ URLs, BGP, Whois and other services primarily related to Internet services.
 
 ## Looking glasses
 
-- [Looking.house](https://looking.house/) - 166 Looking Glass points from 87
-  companies in 36 countries.
+A looking glass is a publicly accessible (route) server that allows you to
+perform various networking tests (such as `ping`, `traceroute` and `BGP` route
+view) to a specific destination or network. This information can help to
+troubleshoot routing problems and detect network connectivity issues that may be
+a result of network blocking.
+
+- [Looking.house](https://looking.house/) - Looking Glass points from various
+  companies and countries.
+- [LookingGlass.Org](https://lookinglass.org/) - A collection of looking glass
+  services around the world from different countries, ISPs and IXs.
 
 ## Network diagnostic tools
 
