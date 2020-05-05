@@ -33,7 +33,9 @@ module.exports = {
       { text: 'Guide', link: '/guide/' },
       { text: 'Publications', link: '/publications/' },
       { text: 'Contribute', link: '/guide/contribute' },
-      { text: 'Onion Service', link: 'http://magma.ua4vjlx72wv5crhkificaeysp62hizhazipfshsdvs6jxqvhtkpllcad.onion' }
+      { text: 'Onion Service', link: 'http://magma.ua4vjlx72wv5crhkificaeysp62hizhazipfshsdvs6jxqvhtkpllcad.onion' },
+      { text: 'Contact', link: 'https://blog.magma.lavafeld.org/contact/' },
+      { text: 'Blog', link: 'https://blog.magma.lavafeld.org/' }
     ]
   },
   plugins: {
