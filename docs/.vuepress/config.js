@@ -1,6 +1,16 @@
 module.exports = {
-  title: 'magma',
-  description: 'This is the magma guide',
+  locales: {
+    '/': {
+      lang: 'en-US', // this will be set as the lang attribute on <html>
+      title: 'magma',
+      description: 'This is the magma guide'
+    },
+    '/es/': {
+      lang: 'es-ES',
+      title: 'magma',
+      description: 'Esta es la guía magma'
+    }
+  },
   base: process.env.VUEPRESS_BASE || '/',
   dest: 'public',
   head: [
@@ -19,24 +29,55 @@ module.exports = {
   themeConfig: {
     repo: 'https://github.com/lavafeld/magma-guide',
     editLinks: true,
-    docsDir: 'docs',
     smoothScroll: true,
-    editLinkText: 'Help us improve this page!',
-    lastUpdated: 'Last Updated',
-    sidebar: {
-      // https://github.com/vuejs/vuepress/issues/984
-      sidebarDepth: 2,
-      '/guide/': getGuideSidebar('Guide', 'Advanced', 'Contribute'),
-    },
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/' },
-      { text: 'Publications', link: '/publications/' },
-      { text: 'Contribute', link: '/guide/contribute' },
-      { text: 'Onion Service', link: 'http://magma.ua4vjlx72wv5crhkificaeysp62hizhazipfshsdvs6jxqvhtkpllcad.onion' },
-      { text: 'Contact', link: 'https://blog.magma.lavafeld.org/contact/' },
-      { text: 'Blog', link: 'https://blog.magma.lavafeld.org/' }
-    ]
+    docsDir: 'docs',
+    locales: {
+      '/': {
+        ariaLabel: 'Languages',
+        editLinkText: 'Help us improve this page!',
+        label: 'English',
+        lastUpdated: 'Last Updated',
+        selectText: 'Languages',
+        sidebar: {
+          // https://github.com/vuejs/vuepress/issues/984
+          sidebarDepth: 2,
+          '/guide/': getGuideSidebar('Guide', 'Advanced', 'Contribute')
+        },
+        nav: [
+          { text: 'Home', link: '/' },
+          { text: 'Guide', link: '/guide/' },
+          { text: 'Publications', link: '/publications/' },
+          { text: 'Contribute', link: '/guide/contribute' },
+          { text: 'Onion Service', link: 'http://magma.ua4vjlx72wv5crhkificaeysp62hizhazipfshsdvs6jxqvhtkpllcad.onion' },
+          { text: 'Contact', link: 'https://blog.magma.lavafeld.org/contact/' },
+          { text: 'Blog', link: 'https://blog.magma.lavafeld.org/' }
+        ]
+      },
+      '/es/': {
+        editLinkText: 'Ayúdanos a mejorar esta página',
+        lastUpdated: 'Última actualización',
+        // text for the language dropdown
+        selectText: 'Idiomas',
+        // label for this locale in the language dropdown
+        label: 'Castellano',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Idiomas',
+        sidebar: {
+          // https://github.com/vuejs/vuepress/issues/984
+          sidebarDepth: 2,
+          '/es/guide/': getGuideSidebar('Guiá', 'Avanzada', 'Contribuir')
+        },
+        nav: [
+          { text: 'Inicio', link: '/es/' },
+          { text: 'Guiá', link: '/es/guide/' },
+          { text: 'Publicaciones', link: '/es/publications/' },
+          { text: 'Contribuir', link: '/es/guide/contribute' },
+          { text: 'Onion Servicio', link: 'http://magma.ua4vjlx72wv5crhkificaeysp62hizhazipfshsdvs6jxqvhtkpllcad.onion' },
+          { text: 'Contacto', link: 'https://blog.magma.lavafeld.org/contact/' },
+          { text: 'Blog', link: 'https://blog.magma.lavafeld.org/' }
+        ]
+      }
+    }
   },
   plugins: {
       '@vuepress/back-to-top': true,
