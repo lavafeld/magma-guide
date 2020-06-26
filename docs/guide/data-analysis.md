@@ -29,34 +29,6 @@ scripts from the command line and generate data plots out of OONI data.
 Documentation resources and manuals for `R` can be found
 [here](https://cran.r-project.org/manuals.html).
 
-#### [ooni-sync](https://www.bamsoftware.com/software/ooni-sync/)
-
-A fast downloader of OONI reports using the OONI API, `ooni-sync` works by
-downloading an index of available files (only downloading the files that are not
-already present locally). Users can run it again and again to ensure their local
-directory is up-to-date with newly published reports.
-
-The following `ooni-sync` command will:
-
-1. Create the directory "reports" if one does not already exist
-2. Download all `tcp_connect` reports that are not already present in the
-   directory
-3. Compress the downloaded reports with the `xz` data compression tool
-
-`ooni-sync -xz -directory reports test_name=tcp_connect`
-
-More information on `ooni-sync` queries, test name values, and parameters is
-available [here](https://www.bamsoftware.com/software/ooni-sync/). More
-documentation on the API is available [here](https://api.ooni.io/api/).
-
-#### [ooni-sync in Docker](https://github.com/anadahz/ooni-sync-docker#ooni-sync-in-docker)
-
-If you do not want to install all the programs and tools required to analyze
-OONI data, you can instead use `ooni-sync in Docker` (a Docker image with all
-required dependencies ready to use `ooni-sync`, `jq`, and `R`). Instructions for
-how to use the Docker image, as well as installation instructions, can be found
-[here](https://github.com/anadahz/ooni-sync-docker#ooni-sync-in-docker).
-
 ### OONI data location
 
 When performing an analysis across an OONI data set, it is often beneficial to
