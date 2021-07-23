@@ -25,5 +25,5 @@ features:
       many different types of users. The magma guide's multi-layered set-up
       provides easy access for research fellows, journalists, human rights
       activists, lawyers, network engineers, and technologists.
-footer: Creative Commons Attribution Non Commercial 4.0 International
+footer: Creative Commons Attribution Share Alike 4.0 International
 ---
