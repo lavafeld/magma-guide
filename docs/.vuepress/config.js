@@ -64,6 +64,7 @@ function getGuideSidebar (groupA, groupB, groupC) {
         'network-measurements',
         'run-measurements',
         'data-analysis',
+	'censorship-circumvention',
         'glossary'
       ]
     },
