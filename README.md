@@ -6,6 +6,8 @@
 
 You can find the magma guide here: https://magma.lavafeld.org/
 
+Or as an Onion service here: http://magma.ua4vjlx72wv5crhkificaeysp62hizhazipfshsdvs6jxqvhtkpllcad.onion/
+
 This open-licensed, collaborative repository provides the first publicly
 available research framework for people working to measure information controls
 and online surveillance activities. In it, users can find the resources they
