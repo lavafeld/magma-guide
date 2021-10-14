@@ -146,24 +146,60 @@ snapshots of the responses to zmap probes against common UDP services.
 [TCP Scans dataset](https://opendata.rapid7.com/sonar.tcp/) contains regular
 snapshots of the responses to zmap probes against common TCP services.
 
-## Censored Planet
+## The Censored Planet Observatory
 
-[Censored Planet](https://censoredplanet.org/) is a project from the University
-of Michigan that collects privacy and security violations in the Internet. Key
-datasets are detailed below:
+[Censored Planet](https://censoredplanet.org) is a longitudinal censorship
+measurement platform that collects remote measurement measurements in more than
+200 countries. Censored Planet was launched in August 2018, and has since then
+collected more than 45 billion measurement data points. Censored Planet measures
+network interference on the TCP/IP, DNS, and HTTP(S) protocols, using remote
+measurement techniques [Augur](https://censoredplanet.org/projects/augur),
+[Satellite](https://censoredplanet.org/projects/satellite), and
+[Hyperquack](https://censoredplanet.org/projects/hyperquack) respectively.
 
-### 'Satellite' DNS dataset
+Every week, Censored Planet collects reachability data about 2000 popular and
+sensitive websites from more than 95,000 vantage points around the world. Apart
+from longitudinal scans, Censored Planet also performs rapid focus measurements
+of select lists of websites at large scale during censorship events. An academic
+paper about Censored Planet can be found
+[here](https://censoredplanet.org/assets/censoredplanet.pdf).
 
-[Satellite](https://censoredplanet.org/data/raw) contains a regular snapshot of
-DNS resolutions of top websites as returned by a large number of Open DNS
-resolvers located in a wide range of networks.
+Censored Planet’s measurement data has been crucial in identifying and
+monitoring several important censorship and network interference events. In
+2019, Censored Planet data was used to [study the large-scale HTTPS interception
+that occurred in Kazakhstan](https://censoredplanet.org/kazakhstan), and was
+instrumental in driving changes in major web browsers that blocked the
+interception attack. Censored Planet data has been used to [study Russia’s
+decentralized censorship mechanism](https://censoredplanet.org/russia), and [the
+throttling attack they performed on
+Twitter](https://censoredplanet.org/throttling). Censored Planet has also been
+used to [identify the deployment of network censorship
+devices](https://censoredplanet.org/filtermap), and [track the blocking of
+COVID-19 related websites around the world](https://censoredplanet.org/covid).
 
-### 'Quack' HTTP Dataset
+Censored Planet data is available to the public through the [Censored Planet
+website](https://data.censoredplanet.org/raw). The Censored Planet raw data
+website contains archived compressed data files corresponding to one *scan*
+using each measurement technique. The data formats and tips for analyzing the
+data for each of the published data files and versions are available in the
+[Censored Planet documentation](http://docs.censoredplanet.org).
 
-[Quack](https://censoredplanet.org/data/raw) contains regular collection of the
-responses observed when connecting to infrastructural web servers (e.g. those
-operated by ISPs and governments), and asking the web server to serve content
-from a range of sensitive domains.
+For more information about using the data, please refer to the[Censored Planet
+GitHub](https://github.com/censoredplanet/censoredplanet/tree/master/docs), or
+email Censored Planet at
+[censoredplanet@umich.edu](mailto:censoredplanet@umich.edu).
+
+### Documentation of DNS (Satellite) data
+
+<https://docs.censoredplanet.org/dns.html>
+
+### Documentation of HTTP(S) (Hyperquack) data
+
+<https://docs.censoredplanet.org/http.html>
+
+### Documentation about Censored Planet data analysis
+
+<https://docs.censoredplanet.org/analysis.html>
 
 ## Other sources
 
