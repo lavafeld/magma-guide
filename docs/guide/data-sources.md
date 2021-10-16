@@ -184,10 +184,24 @@ using each measurement technique. The data formats and tips for analyzing the
 data for each of the published data files and versions are available in the
 [Censored Planet documentation](http://docs.censoredplanet.org).
 
-For more information about using the data, please refer to the[Censored Planet
+For more information about using the data, please refer to the [Censored Planet
 GitHub](https://github.com/censoredplanet/censoredplanet/tree/master/docs), or
 email Censored Planet at
 [censoredplanet@umich.edu](mailto:censoredplanet@umich.edu).
+
+### Censored Planet Dashboard
+
+The [Censored Planet Dashboard](https://dashboard.censoredplanet.org/), built
+in collaboration with Jigsaw Inc. is an exploratory data dashboard that uses
+data analyzed using the Censored Planet data analysis pipeline, and contains
+visualizations that allow easy exploration of Censored Planet measurements. The
+dashboard is currently in beta stage, please reach out to
+[censoredplanet-analysis@umich.edu](mailto:censoredplanet-analysis@umich.edu)
+if you are interested in using the Censored Planet dashboard for your research.
+
+#### Documentation of Censored Planet Dashboard
+
+<https://docs.censoredplanet.org/analysis.html#censored-planet-dashboard>
 
 ### Documentation of DNS (Satellite) data
 
