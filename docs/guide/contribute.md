@@ -39,7 +39,7 @@ contribution, you'll first need to create a
   [Pull Request](https://help.github.com/en/articles/about-pull-requests) when
   you want to make a change. If your change only affects the contents of a
   single page (as will most often be the case), you can do this by simply
-  clicking the `{{$themeConfig.editLinkText}}` link at the button of the page
+  clicking the "edit" at the button of the page
   (see
   [Editing files in another user's repository](https://help.github.com/en/articles/editing-files-in-another-users-repository)
   for details).
