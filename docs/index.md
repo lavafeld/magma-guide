@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /magma-guide/guide/
+      link: /guide/
 
 features:
   - title: Better Research
