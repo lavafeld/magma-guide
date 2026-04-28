@@ -1,0 +1,38 @@
+name: Deploy website to GitHub Pages
+on:
+  push:
+    branches:
+      - master
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    outputs:
+      artifact-name: github-pages-artifact
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: npm install
+      - name: Build site
+        run: npm run docs:build
+      - name: Upload artifact
+        id: upload-pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs/public
+          name: github-pages-artifact
+  
+  deploy:
+    runs-on: ubuntu-24.04
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: ${{ needs.build.outputs.artifact-name }}
+
