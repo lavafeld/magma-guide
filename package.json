@@ -15,7 +15,7 @@
     "url": "https://github.com/lavafeld/magma-guide"
   },
   "dependencies": {
-    "vue": "3.3.4"
+    "vue": "3.5.44"
   },
   "devDependencies": {
     "vitepress": "1.6.4"
